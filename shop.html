@@ -40,23 +40,23 @@
     <header itemscope itemtype="https://schema.org/SiteNavigationElement">
       <div class="left-side">
         <div class="logo" itemscope itemtype="http://schema.org/logo">
-          <a href="main_page.html" itemprop="name">SQL-GAMES</a>
+          <a href="index.html" itemprop="name">SQL-GAMES</a>
         </div>
       </div>
       <nav class="right-nav">
         <a class="coins"
           >10<img
-            src="resources/coin.png"
+            src="resources/images/coin.png"
             class="coin-img"
-            alt="sqliezi"
+            alt="eSQLids"
             itemscope
             itemtype="https://schema.org/ImageObject"
         /></a>
         <a class="coins-collapsed"
           >Coins : 10<img
-            src="resources/coin.png"
+            src="resources/images/coin.png"
             class="coin-img"
-            alt="sqliezi"
+            alt="eSQLids"
         /></a>
         <a href="shop.html" itemprop="url">Exercises</a>
         <a href="login_register.html">Login/Register</a>
@@ -94,11 +94,11 @@
           <input
             class="search-input"
             type="text"
-            name=""
+            name="search-input"
             placeholder="Search"
           />
-          <button class="search-button" href="#">
-            <img class="search-image" src="resources/search.png" />
+          <button class="search-button">
+            <img class="search-image" src="resources/images/search.png" alt="search" />
           </button>
         </div>
 
@@ -128,14 +128,15 @@
           <div class="shop-filter-layout">
             <form>
               <label>Layout</label>
-              <img src="resources/minimize-fullscreen.png" id="compact" />
-              <img src="resources/expand-fullscreen.png" id="extended" />
+              <img src="resources/images/compact_button.png" id="compact" alt="minimize"/>
+              <img src="resources/images/extended_button.png" id="extended" alt="maximize"/>
             </form>
           </div>
         </div>
       </div>
 
       <div class="exercise-list">
+        <div class="exercise-wrapper">
         <div class="exercise-requirement">
           <div class="requirements">
             <div class="meta-info">
@@ -143,7 +144,8 @@
                 <p class="difficulty-title">Difficulty:</p>
                 <img
                   class="difficulty-bar"
-                  src="resources/difficulty_medium.png"
+                  src="resources/images/difficulty_medium.png"
+                  alt="difficulty"
                 />
               </div>
               <h3 class="exercise-author">by Nume_Imaginar</h3>
@@ -171,16 +173,15 @@
                 <p>Solved by : 10</p>
               </div>
               <div class="solve-button-div">
-                <a class="solve-button-link" href="exercise.html">
-                  <button class="exercise-button to-solve">
+                <a class="exercise-button to-solve" href="exercise.html">
                     Solve Exercise
-                  </button>
                 </a>
               </div>
             </div>
           </div>
         </div>
-
+      </div>
+      <div class="exercise-wrapper">
         <div class="exercise-requirement">
           <div class="requirements">
             <div class="meta-info">
@@ -188,7 +189,8 @@
                 <p class="difficulty-title">Difficulty:</p>
                 <img
                   class="difficulty-bar"
-                  src="resources/difficulty_hard.png"
+                  src="resources/images/difficulty_hard.png"
+                  alt="difficulty"
                 />
               </div>
               <h3 class="exercise-author">by Nume_Imaginar</h3>
@@ -219,18 +221,17 @@
                   itemprop="offers"
                   itemscope
                   itemtype="http://schema.org/Offer"
-                  class="solve-button-link"
+                  class="exercise-button to-buy"
                   href="exercise.html"
                 >
-                  <button itemprop="price" class="exercise-button to-buy">
                     10 eSQLids
-                  </button>
                 </a>
               </div>
             </div>
           </div>
         </div>
-
+      </div>
+      <div class="exercise-wrapper">
         <div class="exercise-requirement">
           <div class="requirements">
             <div class="meta-info">
@@ -238,7 +239,8 @@
                 <p class="difficulty-title">Difficulty:</p>
                 <img
                   class="difficulty-bar"
-                  src="resources/difficulty_easy.png"
+                  src="resources/images/difficulty_easy.png"
+                  alt="difficulty"
                 />
               </div>
               <h3 class="exercise-author">by Nume_Imaginar</h3>
@@ -269,18 +271,17 @@
                   itemprop="offers"
                   itemscope
                   itemtype="http://schema.org/Offer"
-                  class="solve-button-link"
+                  class="exercise-button blocked"
                   href="exercise.html"
                 >
-                  <button itemprop="price" class="exercise-button blocked">
                     20 eSQLids
-                  </button>
                 </a>
               </div>
             </div>
           </div>
         </div>
-
+      </div>
+      <div class="exercise-wrapper">
         <div class="exercise-requirement">
           <div class="requirements">
             <div class="meta-info">
@@ -288,7 +289,8 @@
                 <p class="difficulty-title">Difficulty:</p>
                 <img
                   class="difficulty-bar"
-                  src="resources/difficulty_medium.png"
+                  src="resources/images/difficulty_medium.png"
+                  alt="difficult"
                 />
               </div>
               <h3 class="exercise-author">by Nume_Imaginar</h3>
@@ -312,14 +314,15 @@
                 <p>Solved by : 10</p>
               </div>
               <div class="solve-button-div">
-                <a class="solve-button-link" href="exercise.html">
-                  <button class="exercise-button solved">Solved</button>
+                <a class="exercise-button solved" href="exercise.html">
+                  Solved
                 </a>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
       <footer class="footer-bar">
         <a href="#">Contact us</a>
         <a href="scholarlyhtml.html">Scholarly HTML</a>
